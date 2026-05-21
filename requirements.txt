@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+requests
+jupyter
+geopandas
+folium
+pydeck
+scipy

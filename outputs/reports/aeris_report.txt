@@ -1,0 +1,30 @@
+AERIS — Summary Report
+==================================================
+
+air_mass_distribution_%:
+  {'stagnant_mix': 74.9, 'urban_pollution': 18.3, 'marine_air': 3.8, 'saharan_dust': 3.1}
+
+calima_event_hours:
+  2591
+
+calima_event_pct:
+  1.62
+
+mean_aqi_divergence:
+  4.22
+
+max_aqi_divergence:
+  50.72
+
+pct_high_divergence:
+  0.01
+
+mean_divergence_during_calima:
+  3.21
+
+mean_divergence_normal:
+  4.25
+
+mean_aci:
+  0.743
+

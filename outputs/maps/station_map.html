@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e2e1d0cc9ad76b801611e204c4e6e96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e2e1d0cc9ad76b801611e204c4e6e96" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e2e1d0cc9ad76b801611e204c4e6e96 = L.map(
+                "map_6e2e1d0cc9ad76b801611e204c4e6e96",
+                {
+                    center: [39.45949, -0.3665],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1bbefa90cc32d7e89cc3a7fe3ae36f25 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1bbefa90cc32d7e89cc3a7fe3ae36f25.addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+            var circle_marker_a7c5dbc01e71d693d460b28ceaf5c350 = L.circleMarker(
+                [39.4632, -0.3451],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_f9f827afa293b6745c192b5a914f9b77 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_759bbfeff4ce3617d248fc247d7b3e08 = $(`<div id="html_759bbfeff4ce3617d248fc247d7b3e08" style="width: 100.0%; height: 100.0%;"><b>Avda. Francia</b><br>PM10 (mean): 18.9 µg/m³<br>PM2.5 (mean): 8.7 µg/m³<br>AQI (scientific): 6.9<br>Calima hours: 864</div>`)[0];
+                popup_f9f827afa293b6745c192b5a914f9b77.setContent(html_759bbfeff4ce3617d248fc247d7b3e08);
+            
+        
+
+        circle_marker_a7c5dbc01e71d693d460b28ceaf5c350.bindPopup(popup_f9f827afa293b6745c192b5a914f9b77)
+        ;
+
+        
+    
+    
+            var circle_marker_58a173b6b81a87c37b065e341ac40c47 = L.circleMarker(
+                [39.4501, -0.3928],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_0039647455a7d922dd9dd5133dd70458 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_c88fe1c8639e1fc5c37167cbd54c825f = $(`<div id="html_c88fe1c8639e1fc5c37167cbd54c825f" style="width: 100.0%; height: 100.0%;"><b>Bulevard Sud</b><br>PM10 (mean): nan µg/m³<br>PM2.5 (mean): nan µg/m³<br>AQI (scientific): nan<br>Calima hours: 0</div>`)[0];
+                popup_0039647455a7d922dd9dd5133dd70458.setContent(html_c88fe1c8639e1fc5c37167cbd54c825f);
+            
+        
+
+        circle_marker_58a173b6b81a87c37b065e341ac40c47.bindPopup(popup_0039647455a7d922dd9dd5133dd70458)
+        ;
+
+        
+    
+    
+            var circle_marker_b9b64d3801ba6a593724a4bfe6a0a912 = L.circleMarker(
+                [39.4447, -0.3802],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_453b4bd40866dff0684c0e77eed2a315 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_27af252a5675de6dff80386976964a39 = $(`<div id="html_27af252a5675de6dff80386976964a39" style="width: 100.0%; height: 100.0%;"><b>Moli del Sol</b><br>PM10 (mean): 15.8 µg/m³<br>PM2.5 (mean): 13.1 µg/m³<br>AQI (scientific): 7.5<br>Calima hours: 4</div>`)[0];
+                popup_453b4bd40866dff0684c0e77eed2a315.setContent(html_27af252a5675de6dff80386976964a39);
+            
+        
+
+        circle_marker_b9b64d3801ba6a593724a4bfe6a0a912.bindPopup(popup_453b4bd40866dff0684c0e77eed2a315)
+        ;
+
+        
+    
+    
+            var circle_marker_ce444c09e3f8ef4ddd0f4f0a00a9a1c5 = L.circleMarker(
+                [39.4298, -0.4083],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_20137d3e5d9ebb3b89c8ab6d28afbc80 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_56fe6ad411a6e160113133c5d24c31ba = $(`<div id="html_56fe6ad411a6e160113133c5d24c31ba" style="width: 100.0%; height: 100.0%;"><b>Pista Silla</b><br>PM10 (mean): 15.3 µg/m³<br>PM2.5 (mean): 10.2 µg/m³<br>AQI (scientific): 7.5<br>Calima hours: 220</div>`)[0];
+                popup_20137d3e5d9ebb3b89c8ab6d28afbc80.setContent(html_56fe6ad411a6e160113133c5d24c31ba);
+            
+        
+
+        circle_marker_ce444c09e3f8ef4ddd0f4f0a00a9a1c5.bindPopup(popup_20137d3e5d9ebb3b89c8ab6d28afbc80)
+        ;
+
+        
+    
+    
+            var circle_marker_7b4103c1af625bd35722d56c0929cdfa = L.circleMarker(
+                [39.48, -0.3463],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_b1332ded23a21ab9a2a60cf30850d289 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_bf16a423191414386a978fdce49da73c = $(`<div id="html_bf16a423191414386a978fdce49da73c" style="width: 100.0%; height: 100.0%;"><b>Politecnico</b><br>PM10 (mean): 13.2 µg/m³<br>PM2.5 (mean): 9.8 µg/m³<br>AQI (scientific): 6.5<br>Calima hours: 72</div>`)[0];
+                popup_b1332ded23a21ab9a2a60cf30850d289.setContent(html_bf16a423191414386a978fdce49da73c);
+            
+        
+
+        circle_marker_7b4103c1af625bd35722d56c0929cdfa.bindPopup(popup_b1332ded23a21ab9a2a60cf30850d289)
+        ;
+
+        
+    
+    
+            var circle_marker_a06f889ff8f8f65669a29423da15b840 = L.circleMarker(
+                [39.451, -0.319],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_fb8416a83a8cbec728a5d8a58a31484f = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_1618860e865f1924e15e4ca5633ca623 = $(`<div id="html_1618860e865f1924e15e4ca5633ca623" style="width: 100.0%; height: 100.0%;"><b>Puerto Moll Trans. Ponent</b><br>PM10 (mean): 22.5 µg/m³<br>PM2.5 (mean): 10.7 µg/m³<br>AQI (scientific): 9.2<br>Calima hours: 606</div>`)[0];
+                popup_fb8416a83a8cbec728a5d8a58a31484f.setContent(html_1618860e865f1924e15e4ca5633ca623);
+            
+        
+
+        circle_marker_a06f889ff8f8f65669a29423da15b840.bindPopup(popup_fb8416a83a8cbec728a5d8a58a31484f)
+        ;
+
+        
+    
+    
+            var circle_marker_f9e66c5c0411f0fbbbf78e110c937dab = L.circleMarker(
+                [39.459, -0.328],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_e53b218a7693e18807ac0c0c7eb740bc = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_e6436fddbafdab7bd47872d47ced55fe = $(`<div id="html_e6436fddbafdab7bd47872d47ced55fe" style="width: 100.0%; height: 100.0%;"><b>Puerto llit antic Turia</b><br>PM10 (mean): 21.9 µg/m³<br>PM2.5 (mean): 11.3 µg/m³<br>AQI (scientific): 9.1<br>Calima hours: 307</div>`)[0];
+                popup_e53b218a7693e18807ac0c0c7eb740bc.setContent(html_e6436fddbafdab7bd47872d47ced55fe);
+            
+        
+
+        circle_marker_f9e66c5c0411f0fbbbf78e110c937dab.bindPopup(popup_e53b218a7693e18807ac0c0c7eb740bc)
+        ;
+
+        
+    
+    
+            var circle_marker_85c250fcc364018ae097c139b90aa6ed = L.circleMarker(
+                [39.4698, -0.3763],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_6662726f1a807d7c8a809dec0407889e = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_74a25664004ff12d243310acfbf8b580 = $(`<div id="html_74a25664004ff12d243310acfbf8b580" style="width: 100.0%; height: 100.0%;"><b>Valencia Centro</b><br>PM10 (mean): 23.8 µg/m³<br>PM2.5 (mean): 13.0 µg/m³<br>AQI (scientific): nan<br>Calima hours: 306</div>`)[0];
+                popup_6662726f1a807d7c8a809dec0407889e.setContent(html_74a25664004ff12d243310acfbf8b580);
+            
+        
+
+        circle_marker_85c250fcc364018ae097c139b90aa6ed.bindPopup(popup_6662726f1a807d7c8a809dec0407889e)
+        ;
+
+        
+    
+    
+            var circle_marker_95794c5c67c11fcbb26129132b65c74e = L.circleMarker(
+                [39.468, -0.405],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_50409aba58a9b059b2dd980fde0b0cba = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_47d2851642217ff94c8542e03f9ec79e = $(`<div id="html_47d2851642217ff94c8542e03f9ec79e" style="width: 100.0%; height: 100.0%;"><b>Valencia Olivereta</b><br>PM10 (mean): 28.3 µg/m³<br>PM2.5 (mean): 13.1 µg/m³<br>AQI (scientific): nan<br>Calima hours: 212</div>`)[0];
+                popup_50409aba58a9b059b2dd980fde0b0cba.setContent(html_47d2851642217ff94c8542e03f9ec79e);
+            
+        
+
+        circle_marker_95794c5c67c11fcbb26129132b65c74e.bindPopup(popup_50409aba58a9b059b2dd980fde0b0cba)
+        ;
+
+        
+    
+    
+            var circle_marker_8337ca486075105121273dc819d70f72 = L.circleMarker(
+                [39.4793, -0.364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e2e1d0cc9ad76b801611e204c4e6e96);
+        
+    
+        var popup_d2d5fee74b5068acf791bf089c0e4ce6 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_6c999603f77fd2f9c8508819cd797058 = $(`<div id="html_6c999603f77fd2f9c8508819cd797058" style="width: 100.0%; height: 100.0%;"><b>Viveros</b><br>PM10 (mean): nan µg/m³<br>PM2.5 (mean): nan µg/m³<br>AQI (scientific): nan<br>Calima hours: 0</div>`)[0];
+                popup_d2d5fee74b5068acf791bf089c0e4ce6.setContent(html_6c999603f77fd2f9c8508819cd797058);
+            
+        
+
+        circle_marker_8337ca486075105121273dc819d70f72.bindPopup(popup_d2d5fee74b5068acf791bf089c0e4ce6)
+        ;
+
+        
+    
+</script>
+</html>
