@@ -6,7 +6,7 @@
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](https://opendata.vlci.valencia.es)
 [![Pipeline: Python 3.12](https://img.shields.io/badge/Python-3.12-green.svg)](https://python.org)
 
-🌐 **Live portfolio:** [aaronmartinez-env.github.io/AERIS/aeris_portfolio.html](https://aaronmartinez-env.github.io/AERIS/aeris_portfolio.html)
+**Live portfolio:** [aaronmartinez-env.github.io/AERIS/aeris_portfolio.html](https://aaronmartinez-env.github.io/AERIS/aeris_portfolio.html)
 
 ---
 
